@@ -1,0 +1,179 @@
+
+No Encryption
+Sent Packet #1
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #2
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #3
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #4
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #5
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #6
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+
+Received Packet #6
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #7
+Length: 1
+Sync: 1
+Command: Poll
+Data: 07 
+
+Received Packet #7
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #8
+Length: 1
+Sync: 0
+Command: Poll
+Data: 07 
+
+Received Packet #8
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #9
+Length: 1
+Sync: 1
+Command: Poll
+Data: 07 
+
+Received Packet #9
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #10
+Length: 1
+Sync: 0
+Command: Poll
+Data: 07 
+
+Received Packet #10
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #11
+Length: 1
+Sync: 1
+Command: Poll
+Data: 07 
+
+Received Packet #11
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #12
+Length: 1
+Sync: 0
+Command: Poll
+Data: 07 
+
+Received Packet #12
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #13
+Length: 1
+Sync: 1
+Command: Poll
+Data: 07 
+
+Received Packet #13
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #14
+Length: 1
+Sync: 0
+Command: Poll
+Data: 07 
+
+Received Packet #14
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #15
+Length: 1
+Sync: 1
+Command: Poll
+Data: 07 
+
+Received Packet #15
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #16
+Length: 1
+Sync: 0
+Command: Poll
+Data: 07 
+
+Receive

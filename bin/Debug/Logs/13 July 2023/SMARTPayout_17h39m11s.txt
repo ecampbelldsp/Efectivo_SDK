@@ -1,0 +1,3432 @@
+
+No Encryption
+Sent Packet #1
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #1
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #2
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A 87 41 94 68 00 00 00 00 
+
+Received Packet #2
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #3
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B CB 18 DA 27 00 00 00 00 
+
+Received Packet #3
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #4
+Length: 9
+Sync: 0
+Command: Request Key Exchange
+Data: 4C CD 24 16 06 00 00 00 00 
+
+Received Packet #4
+Length: 9
+Sync: 0
+Response: OK
+Data: F0 54 20 E0 02 00 00 00 00 
+
+No Encryption
+Sent Packet #5
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 06 
+
+Received Packet #5
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #6
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 07 
+
+Received Packet #6
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #7
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #7
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #8
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 09 
+
+Received Packet #8
+Length: 1
+Sync: 0
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #9
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #9
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #10
+Length: 1
+Sync: 0
+Command: Setup Request
+Data: 05 
+
+Received Packet #10
+Length: 80
+Sync: 0
+Response: OK
+Data: F0 06 30 34 32 35 45 55 52 00 00 05 07 01 02 04 0A 14 28 64 02 02 02 02 02 02 02 00 00 64 08 45 55 52 45 55 52 45 55 52 45 55 52 45 55 52 45 55 52 45 55 52 05 00 00 00 0A 00 00 00 14 00 00 00 32 00 00 00 64 00 00 00 C8 00 00 00 F4 01 00 00 
+
+No Encryption
+Sent Packet #11
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 F4 01 00 00 45 55 52 
+
+Received Packet #11
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 02 00 
+
+No Encryption
+Sent Packet #12
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C F4 01 00 00 45 55 52 
+
+Received Packet #12
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #13
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 E8 03 00 00 45 55 52 
+
+Received Packet #13
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 02 00 
+
+No Encryption
+Sent Packet #14
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C E8 03 00 00 45 55 52 
+
+Received Packet #14
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #15
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 D0 07 00 00 45 55 52 
+
+Received Packet #15
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 01 00 
+
+No Encryption
+Sent Packet #16
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C D0 07 00 00 45 55 52 
+
+Received Packet #16
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #17
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 88 13 00 00 45 55 52 
+
+Received Packet #17
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 01 00 
+
+No Encryption
+Sent Packet #18
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 88 13 00 00 45 55 52 
+
+Received Packet #18
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #19
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 10 27 00 00 45 55 52 
+
+Received Packet #19
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 00 00 
+
+No Encryption
+Sent Packet #20
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 10 27 00 00 45 55 52 
+
+Received Packet #20
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 01 
+
+No Encryption
+Sent Packet #21
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 20 4E 00 00 45 55 52 
+
+Received Packet #21
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 00 00 
+
+No Encryption
+Sent Packet #22
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 20 4E 00 00 45 55 52 
+
+Received Packet #22
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 01 
+
+No Encryption
+Sent Packet #23
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 50 C3 00 00 45 55 52 
+
+Received Packet #23
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 00 00 
+
+No Encryption
+Sent Packet #24
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 50 C3 00 00 45 55 52 
+
+Received Packet #24
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 01 
+
+No Encryption
+Sent Packet #25
+Length: 3
+Sync: 1
+Command: Set Channel Inhibits
+Data: 02 FF FF 
+
+Received Packet #25
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #26
+Length: 1
+Sync: 0
+Command: Get Serial Number
+Data: 0C 
+
+Received Packet #26
+Length: 5
+Sync: 0
+Response: OK
+Data: F0 00 59 1A E8 
+
+No Encryption
+Sent Packet #27
+Length: 1
+Sync: 1
+Command: Enable Payout Device
+Data: 5C 
+
+Received Packet #27
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #28
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+
+Received Packet #28
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #29
+Length: 1
+Sync: 1
+Command: Poll
+Data: 07 
+
+Received Packet #29
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #30
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #30
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #31
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A 3B EF B9 0D 00 00 00 00 
+
+Received Packet #31
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #32
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B 25 7C EC 07 00 00 00 00 
+
+Received Packet #32
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #33
+Length: 9
+Sync: 0
+Command: Request Key Exchange
+Data: 4C 09 1B 24 04 00 00 00 00 
+
+Received Packet #33
+Length: 9
+Sync: 0
+Response: OK
+Data: F0 50 AD 7D 02 00 00 00 00 
+
+No Encryption
+Sent Packet #34
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 06 
+
+Received Packet #34
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #35
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 07 
+
+Received Packet #35
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #36
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #36
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #37
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 09 
+
+Received Packet #37
+Length: 1
+Sync: 0
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #38
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #38
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #39
+Length: 1
+Sync: 0
+Command: Setup Request
+Data: 05 
+No response...
+
+No Encryption
+Sent Packet #40
+Length: 3
+Sync: 0
+Command: Set Channel Inhibits
+Data: 02 FF FF 
+No response...
+
+No Encryption
+Sent Packet #41
+Length: 1
+Sync: 0
+Command: Get Serial Number
+Data: 0C 
+No response...
+
+No Encryption
+Sent Packet #42
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #42
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #43
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #43
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #44
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A FB 19 87 55 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #45
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #45
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #46
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A 71 7E 38 5B 00 00 00 00 
+
+Received Packet #46
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #47
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B E3 24 10 4A 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #48
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #48
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #49
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A 75 D8 5B 73 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #50
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+No response...
+
+No Encryption
+Sent Packet #51
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #51
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #52
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A 71 84 4C 3E 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #53
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #53
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #54
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A BF 8E 7B 71 00 00 00 00 
+
+Received Packet #54
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #55
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B 8D BD 6B 24 00 00 00 00 
+
+Received Packet #55
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #56
+Length: 9
+Sync: 0
+Command: Request Key Exchange
+Data: 4C 49 78 71 21 00 00 00 00 
+
+Received Packet #56
+Length: 9
+Sync: 0
+Response: OK
+Data: F0 89 52 5B 1D 00 00 00 00 
+
+No Encryption
+Sent Packet #57
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 06 
+
+Received Packet #57
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #58
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 07 
+
+Received Packet #58
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #59
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #59
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #60
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 09 
+
+Received Packet #60
+Length: 1
+Sync: 0
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #61
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #61
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #62
+Length: 1
+Sync: 0
+Command: Setup Request
+Data: 05 
+
+Received Packet #62
+Length: 80
+Sync: 0
+Response: OK
+Data: F0 06 30 34 32 35 45 55 52 00 00 05 07 01 02 04 0A 14 28 64 02 02 02 02 02 02 02 00 00 64 08 45 55 52 45 55 52 45 55 52 45 55 52 45 55 52 45 55 52 45 55 52 05 00 00 00 0A 00 00 00 14 00 00 00 32 00 00 00 64 00 00 00 C8 00 00 00 F4 01 00 00 
+
+No Encryption
+Sent Packet #63
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 F4 01 00 00 45 55 52 
+
+Received Packet #63
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 02 00 
+
+No Encryption
+Sent Packet #64
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C F4 01 00 00 45 55 52 
+
+Received Packet #64
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #65
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 E8 03 00 00 45 55 52 
+
+Received Packet #65
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 02 00 
+
+No Encryption
+Sent Packet #66
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C E8 03 00 00 45 55 52 
+
+Received Packet #66
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #67
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 D0 07 00 00 45 55 52 
+
+Received Packet #67
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 01 00 
+
+No Encryption
+Sent Packet #68
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #68
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #69
+Length: 8
+Sync: 0
+Command: Get Denomination Level
+Data: 35 88 13 00 00 45 55 52 
+
+Received Packet #69
+Length: 3
+Sync: 0
+Response: OK
+Data: F0 01 00 
+
+No Encryption
+Sent Packet #70
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 88 13 00 00 45 55 52 
+
+Received Packet #70
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 01 00 
+
+No Encryption
+Sent Packet #71
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A 19 4E F0 49 00 00 00 00 
+
+Received Packet #71
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #72
+Length: 9
+Sync: 1
+Command: Set Generator
+Data: 4A 19 4E F0 49 00 00 00 00 
+
+Received Packet #72
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #73
+Length: 8
+Sync: 0
+Command: Get Denomination Level
+Data: 35 10 27 00 00 45 55 52 
+
+Received Packet #73
+Length: 3
+Sync: 0
+Response: OK
+Data: F0 00 00 
+
+No Encryption
+Sent Packet #74
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 10 27 00 00 45 55 52 
+
+Received Packet #74
+Length: 1
+Sync: 1
+Response: Parameter out of Range
+Data: F4 
+
+No Encryption
+Sent Packet #75
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 10 27 00 00 45 55 52 
+
+Received Packet #75
+Length: 1
+Sync: 0
+Response: Parameter out of Range
+Data: F4 
+
+No Encryption
+Sent Packet #76
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 20 4E 00 00 45 55 52 
+
+Received Packet #76
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 00 00 
+
+No Encryption
+Sent Packet #77
+Length: 8
+Sync: 0
+Command: Get Denomination Level
+Data: 35 20 4E 00 00 45 55 52 
+
+Received Packet #77
+Length: 3
+Sync: 0
+Response: OK
+Data: F0 00 00 
+
+No Encryption
+Sent Packet #78
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 7E 7B 
+
+Received Packet #78
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #79
+Length: 17
+Sync: 0
+Command: Unknown Command
+Data: 7E 7B C9 79 B0 DA 59 7B E1 7E 8A 97 AC F8 59 9F 05 
+
+Received Packet #79
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #80
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 07 
+No response...
+
+No Encryption
+Sent Packet #81
+Length: 17
+Sync: 1
+Command: Unknown Command
+Data: 7E 70 B1 D2 03 3B 33 CD EA F0 5F 37 FD 4D 25 1B FA 
+No response...
+
+No Encryption
+Sent Packet #82
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+No response...
+
+No Encryption
+Sent Packet #83
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #83
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #84
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #84
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #85
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 09 
+No response...
+
+No Encryption
+Sent Packet #86
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 09 
+No response...
+
+No Encryption
+Sent Packet #87
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A 35 1D F9 76 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #88
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A 35 1D F9 76 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #89
+Length: 1
+Sync: 0
+Command: Enable Payout Device
+Data: 5C 
+No response...
+
+No Encryption
+Sent Packet #90
+Length: 1
+Sync: 0
+Command: Enable Payout Device
+Data: 5C 
+No response...
+
+No Encryption
+Sent Packet #91
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 0B 
+
+Received Packet #91
+Length: 1
+Sync: 0
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #92
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 0A 
+No response...
+
+No Encryption
+Sent Packet #93
+Length: 1
+Sync: 1
+Command: Setup Request
+Data: 05 
+No response...
+
+No Encryption
+Sent Packet #94
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #94
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #95
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+No response...
+
+No Encryption
+Sent Packet #96
+Length: 9
+Sync: 1
+Command: Set Generator
+Data: 4A 1D B6 C8 73 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #97
+Length: 1
+Sync: 1
+Command: Enable Payout Device
+Data: 5C 
+No response...
+
+No Encryption
+Sent Packet #98
+Length: 1
+Sync: 1
+Command: Enable Payout Device
+Data: 5C 
+
+Received Packet #98
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #99
+Length: 9
+Sync: 0
+Command: Set Modulus
+Data: 4B 51 23 FA 50 00 00 00 00 
+
+Received Packet #99
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #100
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #100
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #101
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #101
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #102
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 06 
+
+Received Packet #102
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #103
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #103
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #104
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #104
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #105
+Length: 9
+Sync: 0
+Command: Set Modulus
+Data: 4B 3B 5B 5E 12 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #106
+Length: 9
+Sync: 0
+Command: Set Modulus
+Data: 4B 3B 5B 5E 12 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #107
+Length: 9
+Sync: 0
+Command: Set Modulus
+Data: 4B 3B 5B 5E 12 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #108
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #108
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #109
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #109
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #110
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A 47 69 C8 7B 00 00 00 00 
+
+Received Packet #110
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #111
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 0B 
+
+Received Packet #111
+Length: 1
+Sync: 1
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #112
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 0B 
+
+Received Packet #112
+Length: 1
+Sync: 0
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #113
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B 63 0F 5D 37 00 00 00 00 
+
+Received Packet #113
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #114
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 0C 
+No response...
+
+No Encryption
+Sent Packet #115
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 0C 
+No response...
+
+No Encryption
+Sent Packet #116
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 0C 
+No response...
+
+No Encryption
+Sent Packet #117
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 0D 
+No response...
+
+No Encryption
+Sent Packet #118
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 0E 
+No response...
+
+No Encryption
+Sent Packet #119
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 0F 
+No response...
+
+No Encryption
+Sent Packet #120
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 10 
+No response...
+
+No Encryption
+Sent Packet #121
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #121
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #122
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 12 
+
+Received Packet #122
+Length: 1
+Sync: 0
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #123
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 12 
+No response...
+
+No Encryption
+Sent Packet #124
+Length: 9
+Sync: 1
+Command: Set Generator
+Data: 4A 67 78 C1 53 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #125
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #125
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #126
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #126
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #127
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A E9 25 A4 23 00 00 00 00 
+
+Received Packet #127
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #128
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 F4 01 00 00 45 55 52 
+
+Received Packet #128
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 02 00 
+
+No Encryption
+Sent Packet #129
+Length: 9
+Sync: 0
+Command: Set Modulus
+Data: 4B A5 FE B0 09 00 00 00 00 
+
+Received Packet #129
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #130
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B A5 FE B0 09 00 00 00 00 
+
+Received Packet #130
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #131
+Length: 9
+Sync: 0
+Command: Request Key Exchange
+Data: 4C 7A 6F CD 05 00 00 00 00 
+
+Received Packet #131
+Length: 9
+Sync: 0
+Response: OK
+Data: F0 06 73 C3 05 00 00 00 00 
+
+No Encryption
+Sent Packet #132
+Length: 9
+Sync: 1
+Command: Request Key Exchange
+Data: 4C 7A 6F CD 05 00 00 00 00 
+
+Received Packet #132
+Length: 1
+Sync: 1
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #133
+Length: 8
+Sync: 0
+Command: Get Denomination Level
+Data: 35 E8 03 00 00 45 55 52 
+
+Received Packet #133
+Length: 3
+Sync: 0
+Response: OK
+Data: F0 02 00 
+
+No Encryption
+Sent Packet #134
+Length: 8
+Sync: 1
+Command: Get Denomination Route
+Data: 3C E8 03 00 00 45 55 52 
+
+Received Packet #134
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #135
+Length: 17
+Sync: 0
+Command: Unknown Command
+Data: 7E 85 D9 C4 2C 7B 0B 66 09 14 42 57 F2 9A 1A 74 8E 
+
+Received Packet #135
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #136
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 07 
+
+Received Packet #136
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #137
+Length: 17
+Sync: 0
+Command: Unknown Command
+Data: 7E 7B 21 51 09 56 05 8E 3B 36 37 18 45 8E C3 1A 0E 
+
+Received Packet #137
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #138
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #138
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #139
+Length: 17
+Sync: 0
+Command: Unknown Command
+Data: 7E 5D 88 CF F7 1B F0 FD 20 AD 50 31 F7 E8 6F 99 1D 
+
+Received Packet #139
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #140
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 09 
+No response...
+
+No Encryption
+Sent Packet #141
+Length: 8
+Sync: 1
+Command: Get Denomination Route
+Data: 3C 88 13 00 00 45 55 52 
+No response...
+
+No Encryption
+Sent Packet #142
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 0A 
+No response...
+
+No Encryption
+Sent Packet #143
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 10 27 00 00 45 55 52 
+No response...
+
+No Encryption
+Sent Packet #144
+Length: 8
+Sync: 1
+Command: Get Denomination Route
+Data: 3C 10 27 00 00 45 55 52 
+No response...
+
+No Encryption
+Sent Packet #145
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 20 4E 00 00 45 55 52 
+No response...
+
+No Encryption
+Sent Packet #146
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 20 4E 00 00 45 55 52 
+No response...
+
+No Encryption
+Sent Packet #147
+Length: 8
+Sync: 1
+Command: Get Denomination Route
+Data: 3C 20 4E 00 00 45 55 52 
+No response...
+
+No Encryption
+Sent Packet #148
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 0B 
+No response...
+
+No Encryption
+Sent Packet #149
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 0C 
+No response...
+
+No Encryption
+Sent Packet #150
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 0D 
+No response...
+
+No Encryption
+Sent Packet #151
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 0E 
+No response...
+
+No Encryption
+Sent Packet #152
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 0F 
+No response...
+
+No Encryption
+Sent Packet #153
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 10 
+No response...
+
+No Encryption
+Sent Packet #154
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 11 
+No response...
+
+No Encryption
+Sent Packet #155
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 12 
+No response...
+
+No Encryption
+Sent Packet #156
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 13 
+No response...
+
+No Encryption
+Sent Packet #157
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 14 
+No response...
+
+No Encryption
+Sent Packet #158
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 06 
+
+Received Packet #158
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #159
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 50 C3 00 00 45 55 52 
+
+Received Packet #159
+Length: 1
+Sync: 0
+Response: Parameter out of Range
+Data: F4 
+
+No Encryption
+Sent Packet #160
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+No response...
+
+No Encryption
+Sent Packet #161
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+No response...
+
+No Encryption
+Sent Packet #162
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+No response...
+
+No Encryption
+Sent Packet #163
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+No response...
+
+No Encryption
+Sent Packet #164
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #164
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #165
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A F5 06 AF 3D 00 00 00 00 
+
+Received Packet #165
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #166
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B 1F 81 F5 04 00 00 00 00 
+
+Received Packet #166
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #167
+Length: 9
+Sync: 0
+Command: Request Key Exchange
+Data: 4C E3 10 26 00 00 00 00 00 
+
+Received Packet #167
+Length: 9
+Sync: 0
+Response: OK
+Data: F0 A4 7A F4 03 00 00 00 00 
+
+No Encryption
+Sent Packet #168
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 06 
+
+Received Packet #168
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #169
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 07 
+
+Received Packet #169
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #170
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #170
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #171
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 09 
+
+Received Packet #171
+Length: 1
+Sync: 0
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #172
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #172
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #173
+Length: 1
+Sync: 0
+Command: Setup Request
+Data: 05 
+
+Received Packet #173
+Length: 80
+Sync: 0
+Response: OK
+Data: F0 06 30 34 32 35 45 55 52 00 00 05 07 01 02 04 0A 14 28 64 02 02 02 02 02 02 02 00 00 64 08 45 55 52 45 55 52 45 55 52 45 55 52 45 55 52 45 55 52 45 55 52 05 00 00 00 0A 00 00 00 14 00 00 00 32 00 00 00 64 00 00 00 C8 00 00 00 F4 01 00 00 
+
+No Encryption
+Sent Packet #174
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 F4 01 00 00 45 55 52 
+
+Received Packet #174
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 02 00 
+
+No Encryption
+Sent Packet #175
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C F4 01 00 00 45 55 52 
+
+Received Packet #175
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #176
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 E8 03 00 00 45 55 52 
+
+Received Packet #176
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 02 00 
+
+No Encryption
+Sent Packet #177
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C E8 03 00 00 45 55 52 
+
+Received Packet #177
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #178
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 D0 07 00 00 45 55 52 
+
+Received Packet #178
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 01 00 
+
+No Encryption
+Sent Packet #179
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C D0 07 00 00 45 55 52 
+
+Received Packet #179
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #180
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 88 13 00 00 45 55 52 
+
+Received Packet #180
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 01 00 
+
+No Encryption
+Sent Packet #181
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 88 13 00 00 45 55 52 
+
+Received Packet #181
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #182
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 10 27 00 00 45 55 52 
+
+Received Packet #182
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 00 00 
+
+No Encryption
+Sent Packet #183
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 10 27 00 00 45 55 52 
+
+Received Packet #183
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 01 
+
+No Encryption
+Sent Packet #184
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 20 4E 00 00 45 55 52 
+
+Received Packet #184
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 00 00 
+
+No Encryption
+Sent Packet #185
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 20 4E 00 00 45 55 52 
+
+Received Packet #185
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 01 
+
+No Encryption
+Sent Packet #186
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 50 C3 00 00 45 55 52 
+
+Received Packet #186
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 00 00 
+
+No Encryption
+Sent Packet #187
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 50 C3 00 00 45 55 52 
+
+Received Packet #187
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 01 
+
+No Encryption
+Sent Packet #188
+Length: 3
+Sync: 1
+Command: Set Channel Inhibits
+Data: 02 FF FF 
+
+Received Packet #188
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #189
+Length: 1
+Sync: 0
+Command: Get Serial Number
+Data: 0C 
+
+Received Packet #189
+Length: 5
+Sync: 0
+Response: OK
+Data: F0 00 59 1A E8 
+
+No Encryption
+Sent Packet #190
+Length: 1
+Sync: 1
+Command: Enable Payout Device
+Data: 5C 
+
+Received Packet #190
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #191
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+
+Received Packet #191
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #192
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #192
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #193
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A DD DA 80 13 00 00 00 00 
+
+Received Packet #193
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #194
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B 5D 3C C1 01 00 00 00 00 
+
+Received Packet #194
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #195
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #195
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #196
+Length: 9
+Sync: 0
+Command: Request Key Exchange
+Data: 4C 79 63 D3 00 00 00 00 00 
+
+Received Packet #196
+Length: 9
+Sync: 0
+Response: OK
+Data: F0 E5 94 BE 00 00 00 00 00 
+
+No Encryption
+Sent Packet #197
+Length: 9
+Sync: 1
+Command: Set Generator
+Data: 4A 89 56 D9 1D 00 00 00 00 
+
+Received Packet #197
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #198
+Length: 9
+Sync: 0
+Command: Set Modulus
+Data: 4B 9F 12 A3 04 00 00 00 00 
+
+Received Packet #198
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #199
+Length: 17
+Sync: 1
+Command: Unknown Command
+Data: 7E 67 B0 15 CA 7A E3 18 C0 0A 42 19 5F A8 AB 78 20 
+
+Received Packet #199
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #200
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 07 
+
+Received Packet #200
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #201
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #201
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #202
+Length: 17
+Sync: 0
+Command: Unknown Command
+Data: 7E 29 96 D9 5A 89 EF B5 8C 97 11 88 9C C1 6D 14 0A 
+
+Received Packet #202
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #203
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 06 
+
+Received Packet #203
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #204
+Length: 17
+Sync: 0
+Command: Unknown Command
+Data: 7E 06 A1 D7 B0 CD 17 BF 80 FE 25 5E 52 1C 21 C7 08 
+
+Received Packet #204
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #205
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 07 
+
+Received Packet #205
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #206
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 0B 
+No response...
+
+No Encryption
+Sent Packet #207
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 08 
+No response...
+
+No Encryption
+Sent Packet #208
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 0C 
+No response...
+
+No Encryption
+Sent Packet #209
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 09 
+No response...
+
+No Encryption
+Sent Packet #210
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #210
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #211
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #211
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #212
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 0B 
+
+Received Packet #212
+Length: 1
+Sync: 0
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #213
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 0D 
+No response...
+
+No Encryption
+Sent Packet #214
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 0D 
+No response...
+
+No Encryption
+Sent Packet #215
+Length: 9
+Sync: 1
+Command: Set Generator
+Data: 4A 41 09 A9 73 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #216
+Length: 1
+Sync: 1
+Command: Setup Request
+Data: 05 
+No response...
+
+No Encryption
+Sent Packet #217
+Length: 3
+Sync: 1
+Command: Set Channel Inhibits
+Data: 02 FF FF 
+No response...
+
+No Encryption
+Sent Packet #218
+Length: 1
+Sync: 1
+Command: Get Serial Number
+Data: 0C 
+No response...
+
+No Encryption
+Sent Packet #219
+Length: 1
+Sync: 1
+Command: Enable Payout Device
+Data: 5C 
+No response...
+
+No Encryption
+Sent Packet #220
+Length: 1
+Sync: 1
+Command: Enable Payout Device
+Data: 5C 
+No response...
+
+No Encryption
+Sent Packet #221
+Length: 1
+Sync: 1
+Command: Setup Request
+Data: 05 
+No response...
+
+No Encryption
+Sent Packet #222
+Length: 3
+Sync: 1
+Command: Set Channel Inhibits
+Data: 02 FF FF 
+No response...
+
+No Encryption
+Sent Packet #223
+Length: 1
+Sync: 1
+Command: Get Serial Number
+Data: 0C 
+No response...
+
+No Encryption
+Sent Packet #224
+Length: 1
+Sync: 1
+Command: Enable Payout Device
+Data: 5C 
+No response...
+
+No Encryption
+Sent Packet #225
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #225
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #226
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #226
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #227
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #227
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #228
+Length: 9
+Sync: 0
+Command: Set Modulus
+Data: 4B 93 65 02 54 00 00 00 00 
+
+Received Packet #228
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #229
+Length: 9
+Sync: 1
+Command: Request Key Exchange
+Data: 4C 49 9D 7F 01 00 00 00 00 
+
+Received Packet #229
+Length: 9
+Sync: 1
+Response: OK
+Data: F0 C5 FE DD 1A 00 00 00 00 
+
+No Encryption
+Sent Packet #230
+Length: 9
+Sync: 0
+Command: Request Key Exchange
+Data: 4C 49 9D 7F 01 00 00 00 00 
+
+Received Packet #230
+Length: 1
+Sync: 0
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #231
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 06 
+No response...
+
+No Encryption
+Sent Packet #232
+Length: 17
+Sync: 1
+Command: Unknown Command
+Data: 7E 1A 3C AF 6D AC B1 C2 74 2A 9A C4 05 C8 29 63 4F 
+No response...
+
+No Encryption
+Sent Packet #233
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #233
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #234
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A EB 58 43 44 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #235
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #235
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #236
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A 61 09 A9 68 00 00 00 00 
+
+Received Packet #236
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #237
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B 7B 34 D1 05 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #238
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B 7B 34 D1 05 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #239
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B 7B 34 D1 05 00 00 00 00 
+No response...
+
+No Encryption
+Sent Packet #240
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #240
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #241
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A 4B 29 A1 66 00 00 00 00 
+
+Received Packet #241
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #242
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B 19 75 7A 0A 00 00 00 00 
+
+Received Packet #242
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #243
+Length: 9
+Sync: 0
+Command: Request Key Exchange
+Data: 4C D9 29 E2 09 00 00 00 00 
+
+Received Packet #243
+Length: 9
+Sync: 0
+Response: OK
+Data: F0 87 73 49 05 00 00 00 00 
+
+No Encryption
+Sent Packet #244
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 06 
+
+Received Packet #244
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #245
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 07 
+
+Received Packet #245
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #246
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #246
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #247
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 09 
+
+Received Packet #247
+Length: 1
+Sync: 0
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #248
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+No response...
+
+No Encryption
+Sent Packet #249
+Length: 1
+Sync: 1
+Command: Setup Request
+Data: 05 
+No response...
+
+No Encryption
+Sent Packet #250
+Length: 1
+Sync: 1
+Command: Setup Request
+Data: 05 
+No response...
+
+No Encryption
+Sent Packet #251
+Length: 3
+Sync: 1
+Command: Set Channel Inhibits
+Data: 02 FF FF 
+No response...
+
+No Encryption
+Sent Packet #252
+Length: 1
+Sync: 1
+Command: Get Serial Number
+Data: 0C 
+No response...
+
+No Encryption
+Sent Packet #253
+Length: 1
+Sync: 1
+Command: Enable Payout Device
+Data: 5C 
+No response...
+
+No Encryption
+Sent Packet #254
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #254
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #255
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A F9 72 6F 6E 00 00 00 00 
+
+Received Packet #255
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #256
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B B7 02 C5 10 00 00 00 00 
+
+Received Packet #256
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #257
+Length: 9
+Sync: 0
+Command: Request Key Exchange
+Data: 4C A4 C3 93 02 00 00 00 00 
+
+Received Packet #257
+Length: 9
+Sync: 0
+Response: OK
+Data: F0 43 B3 39 01 00 00 00 00 
+
+No Encryption
+Sent Packet #258
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 06 
+
+Received Packet #258
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #259
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 07 
+
+Received Packet #259
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #260
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #260
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #261
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 09 
+No response...
+
+No Encryption
+Sent Packet #262
+Length: 17
+Sync: 0
+Command: Unknown Command
+Data: 7E 2A 20 F0 66 72 A3 6E 88 AB 9C D3 88 22 10 7A CC 
+No response...
+
+No Encryption
+Sent Packet #263
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 0A 
+No response...
+
+No Encryption
+Sent Packet #264
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #264
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #265
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 0C 
+
+Received Packet #265
+Length: 1
+Sync: 0
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #266
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 0C 
+
+Received Packet #266
+Length: 1
+Sync: 1
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #267
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A 43 8B D9 32 00 00 00 00 
+
+Received Packet #267
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #268
+Length: 9
+Sync: 1
+Command: Set Generator
+Data: 4A 43 8B D9 32 00 00 00 00 
+
+Received Packet #268
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #269
+Length: 9
+Sync: 0
+Command: Set Modulus
+Data: 4B 2F 4D 43 1A 00 00 00 00 
+
+Received Packet #269
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #270
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B 2F 4D 43 1A 00 00 00 00 
+
+Received Packet #270
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #271
+Length: 9
+Sync: 0
+Command: Request Key Exchange
+Data: 4C 6F 4E 53 13 00 00 00 00 
+
+Received Packet #271
+Length: 9
+Sync: 0
+Response: OK
+Data: F0 9F 6B F2 0A 00 00 00 00 
+
+No Encryption
+Sent Packet #272
+Length: 9
+Sync: 1
+Command: Request Key Exchange
+Data: 4C 6F 4E 53 13 00 00 00 00 
+
+Received Packet #272
+Length: 1
+Sync: 1
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #273
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C F4 01 00 00 45 55 52 
+
+Received Packet #273
+Length: 1
+Sync: 0
+Response: Parameter out of Range
+Data: F4 
+
+No Encryption
+Sent Packet #274
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 7E 0C 35 42 1B AF 4C 32 
+
+Received Packet #274
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #275
+Length: 17
+Sync: 0
+Command: Unknown Command
+Data: 7E 0C 35 42 1B AF 4C 32 1A 30 F4 0F F3 0B 37 98 55 
+
+Received Packet #275
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #276
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 07 
+
+Received Packet #276
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #277
+Length: 17
+Sync: 0
+Command: Unknown Command
+Data: 7E CA 4C AA 6D 75 25 E9 6C D6 3B 37 3E C5 41 7D F5 
+
+Received Packet #277
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #278
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #278
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #279
+Length: 17
+Sync: 0
+Command: Unknown Command
+Data: 7E 3E 92 3E 85 7F EE D3 4F 85 98 2D C3 30 8E D3 1A 
+
+Received Packet #279
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #280
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 09 
+
+Received Packet #280
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #281
+Length: 17
+Sync: 0
+Command: Unknown Command
+Data: 7E 9B DD 45 30 75 47 7B B4 B8 41 6A 6E 2B 0D 9A 61 
+
+Received Packet #281
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #282
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 0A 
+
+Received Packet #282
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #283
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 88 13 00 00 45 55 52 
+
+Received Packet #283
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #284
+Length: 17
+Sync: 1
+Command: Unknown Command
+Data: 7E 53 BA 85 3B 2C C3 7E 19 F3 E1 AB 8C 5A 11 D7 C3 
+
+Received Packet #284
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #285
+Length: 8
+Sync: 0
+Command: Get Denomination Level
+Data: 35 10 27 00 00 45 55 52 
+
+Received Packet #285
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #286
+Length: 17
+Sync: 1
+Command: Unknown Command
+Data: 7E DF 6A 59 3B BE C1 A7 64 EF B0 1C E7 76 1E E9 29 
+
+Received Packet #286
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #287
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 10 27 00 00 45 55 52 
+
+Received Packet #287
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #288
+Length: 17
+Sync: 1
+Command: Unknown Command
+Data: 7E 1F CC 44 B4 3F 8E FB 9E A9 DC 2A D4 4D AA 5F 70 
+
+Received Packet #288
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #289
+Length: 8
+Sync: 0
+Command: Get Denomination Level
+Data: 35 20 4E 00 00 45 55 52 
+
+Received Packet #289
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #290
+Length: 17
+Sync: 1
+Command: Unknown Command
+Data: 7E FA 5C 56 EB 22 BE 02 C5 D5 AF 6E 9F 74 2B 8F 1E 
+
+Received Packet #290
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #291
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 20 4E 00 00 45 55 52 
+
+Received Packet #291
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #292
+Length: 17
+Sync: 1
+Command: Unknown Command
+Data: 7E FF 66 6F 68 D1 85 14 F6 34 69 62 92 5C 1B BF 4B 
+
+Received Packet #292
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #293
+Length: 8
+Sync: 0
+Command: Get Denomination Level
+Data: 35 50 C3 00 00 45 55 52 
+
+Received Packet #293
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #294
+Length: 17
+Sync: 1
+Command: Unknown Command
+Data: 7E 65 3F 74 79 2B 2E 19 B1 D3 87 7D 24 C4 F5 AE 70 
+
+Received Packet #294
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #295
+Length: 8
+Sync: 1
+Command: Unknown Command
+Data: 7E 48 EC 04 48 DE B2 E0 
+
+Received Packet #295
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #296
+Length: 17
+Sync: 1
+Command: Unknown Command
+Data: 7E 48 EC 04 48 DE B2 E0 A4 0A 9F D9 2B 84 4D 4C 52 
+
+Received Packet #296
+Length: 1
+Sync: 1
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #297
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 11 
+
+Received Packet #297
+Length: 1
+Sync: 0
+Response: Key Not Set
+Data: FA 
+
+No Encryption
+Sent Packet #298
+Length: 2
+Sync: 1
+Command: Host Protocol Vers
