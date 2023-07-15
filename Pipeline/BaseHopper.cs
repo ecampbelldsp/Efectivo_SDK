@@ -1036,7 +1036,7 @@ namespace eSSP_example
                         Console.WriteLine("Value added: "  + returnstring);
                         string[] tmp = returnstring.Split('E');
                         float tmp_number = float.Parse(tmp[0]);
-                        Global.countingPayment += tmp_number;
+                        Global.CoinCountingPayment += tmp_number;
                         UpdateData();
                         i += 8;
                         break;

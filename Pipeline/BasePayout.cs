@@ -830,6 +830,7 @@ namespace eSSP_example.Pipeline
                             // log.AppendText("Note in escrow, amount: " + CHelpers.FormatToCurrency(data.Value) + "\r\n");
                             Console.WriteLine("Note in escrow, amount: "+ CHelpers.FormatToCurrency(data.Value));
                             m_HoldCount = m_HoldNumber;
+                            Global.NoteCountingPayment += float.Parse(CHelpers.FormatToCurrency(data.Value));
                         }
                         else
                             //log.AppendText("Reading note\r\n");

@@ -18,14 +18,14 @@ namespace eSSP_example
             BasePayout Payout_test = new BasePayout();
             BaseForm1 form = new BaseForm1(Hopper_test, Payout_test);
 
-            bool cobrar = false;
+            bool cobrar = true;
 
             Response response = new Response();
 
             if (cobrar)
             {
                 //Iniciando flujo para cobrar
-                float amountToPay = 50.50F;
+                float amountToPay = 5F;
                 Console.WriteLine("Cantidad a pagar :" + amountToPay + " E\n");
                 float cashBack = form.CountingPayment(amountToPay);
 
@@ -43,11 +43,19 @@ namespace eSSP_example
                         response = form.Pagar(cashBack.ToString());
                         Console.WriteLine("El sistema no tiene dinero para Cashback. Le devolvemos el dinero ingresado");
                     }
+                    else
+                    {
+                        Console.WriteLine("Payment successful");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Payment successful");
                 }
              }
              else
              { 
-                response = form.Pagar("15.5");/**/
+                response = form.Pagar("10");/**/
                 if(!response.success)
                 {
                     Console.WriteLine("Unable to pay amount");

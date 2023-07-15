@@ -155,6 +155,7 @@ namespace eSSP_example.Pipeline
         // updating once.
         public float CountingPayment(float amountToPay)
         {
+            float total = 0;
             startingConection();
             /*
             Thread.Sleep(500);
@@ -204,19 +205,25 @@ namespace eSSP_example.Pipeline
                 Hopper.DoPoll();
                 Payout.DoPoll();
 
+                hopperRunning = false;
+                payoutRunning = false;
+
                 if (startRunningProcess)
                 {
                     Console.WriteLine("Inserte dinero!!! \n");
                     startRunningProcess = false;
                 }
 
-                if (Global.countingPayment >= amountToPay)
+                total = Global.CoinCountingPayment + Global.NoteCountingPayment;
+                if (total >= amountToPay)
                 {
+                    Hopper.DoPoll();
+                    Payout.DoPoll();
 
                     hopperRunning = false;
                     payoutRunning = false;
 
-                    return Global.countingPayment - amountToPay;
+                    return total - amountToPay;
 
 
 
@@ -270,11 +277,18 @@ namespace eSSP_example.Pipeline
                     response = CalculatePayout(cashsBack, currency);
                 }
 
-                                    
+                hopperRunning = false;
+                payoutRunning = false;
+
+                if(!response.success)
+                {   
+                    
+                    Console.WriteLine(response.message);
+                    return response;
+                }
                     
                     
-                    hopperRunning = false;
-                    payoutRunning = false;
+
 
             }
 
@@ -636,7 +650,7 @@ namespace eSSP_example.Pipeline
                 }
             }
             response.set(true, "Successful payment");
-
+            Global.CoinPaymentActive = false;
             return response;
         }
 
