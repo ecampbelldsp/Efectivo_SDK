@@ -11,5 +11,8 @@ namespace eSSP_example
         public static byte Validator1SSPAddress = 0;
         public static byte Validator2SSPAddress = 16;
         public static float countingPayment = 0;
+        public static bool NotePaymentActive = true;  // Only for note. Coins are not considere here
+        public static bool CoinPaymentActive = true;  // Only for note. Coins are not considere here
+
     }
 }

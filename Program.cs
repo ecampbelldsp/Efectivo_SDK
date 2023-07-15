@@ -25,7 +25,7 @@ namespace eSSP_example
             if (cobrar)
             {
                 //Iniciando flujo para cobrar
-                float amountToPay = 0.0002F;
+                float amountToPay = 50.50F;
                 Console.WriteLine("Cantidad a pagar :" + amountToPay + " E\n");
                 float cashBack = form.CountingPayment(amountToPay);
 
@@ -47,7 +47,7 @@ namespace eSSP_example
              }
              else
              { 
-                response = form.Pagar("0.50");/**/
+                response = form.Pagar("15.5");/**/
                 if(!response.success)
                 {
                     Console.WriteLine("Unable to pay amount");

@@ -940,6 +940,7 @@ namespace eSSP_example.Pipeline
                     // been fully dispensed and removed from the front of the validator by the user.
                     case CCommands.SSP_POLL_DISPENSING:
                        // log.AppendText("Dispensing note(s)\r\n");
+                       //Global.paymentActive = true;
                         i += (byte)((response[i + 1] * 7) + 1);
                         break;
                     // The note has been dispensed and removed from the bezel by the user.
@@ -948,6 +949,7 @@ namespace eSSP_example.Pipeline
                         UpdateData();
                         EnableValidator();
                         i += (byte)((response[i + 1] * 7) + 1);
+                        Global.NotePaymentActive = false;
                         break;
                     // The payout device is in the process of emptying all its stored notes to the cashbox. This
                     // will continue to poll until the device is empty.
@@ -1007,6 +1009,7 @@ namespace eSSP_example.Pipeline
                     // A note is resting in the bezel waiting to be removed by the user.
                     case CCommands.SSP_POLL_NOTE_HELD_IN_BEZEL:
                       //  log.AppendText("Note in bezel...\r\n");
+                        //Global.paymentActive = true;
                         i += 7;
                         break;
                     // The payout has gone out of service, the host can attempt to re-enable the payout by sending the enable payout

@@ -229,12 +229,12 @@ namespace eSSP_example.Pipeline
         public Response Pagar(string cashsBack)
         {
             startingConection();
-
+            Response response = new Response();
 
             bool startRunningProcess = true;
 
             // While app active
-            while (true)  //!CHelpers.Shutdown
+            while (Global.NotePaymentActive || Global.CoinPaymentActive)  //!CHelpers.Shutdown
             {
 
                 // If the Hopper is supposed to be running but the poll fails
@@ -266,18 +266,19 @@ namespace eSSP_example.Pipeline
                 {
                     Console.WriteLine("Iniciando devolución!!!");
                     startRunningProcess = false;
+                    char[] currency = { 'E', 'U', 'R' };
+                    response = CalculatePayout(cashsBack, currency);
                 }
 
                                     
-                    char[] currency = { 'E', 'U', 'R' };
-                    Response response = CalculatePayout(cashsBack, currency);
+                    
+                    
                     hopperRunning = false;
                     payoutRunning = false;
 
-                    return response;
-
             }
 
+            return response;
         }
 
 

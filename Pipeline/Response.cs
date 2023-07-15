@@ -11,6 +11,11 @@ namespace eSSP_example.Pipeline
         public bool success;
         public string message;
         
+       /* public Response()
+        {
+          this.success = false;
+          this.message = "";
+        }*/
         public void set(bool success, string message)
         {
             this.success = success;

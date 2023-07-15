@@ -955,6 +955,7 @@ namespace eSSP_example
                             currency += (char)response[i + j + 6];
                             currency += (char)response[i + j + 7];
                             currency += (char)response[i + j + 8];
+                            Global.CoinPaymentActive = false;
                             Console.WriteLine(CHelpers.FormatToCurrency(coin) + " " + currency + " coin(s) dispensed");
                             //log.AppendText(CHelpers.FormatToCurrency(coin) + " " + currency + " coin(s) dispensed\r\n");
                         }
