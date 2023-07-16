@@ -200,6 +200,7 @@ namespace eSSP_example.Pipeline
                 }
 
                 total = Global.CoinCountingPayment + Global.NoteCountingPayment;
+                total = (float)Math.Round(total,2);
                 if (total >= amountToPay)
                 {
                     Hopper.DoPoll();
@@ -222,6 +223,16 @@ namespace eSSP_example.Pipeline
 
         public Response Pagar(string cashsBack)
         {
+            if (float.Parse(cashsBack) <5)
+            {
+                Global.NotePaymentActive = false;
+                Global.CoinPaymentActive = true;
+            }
+            else
+            {
+                Global.NotePaymentActive = true;
+                Global.CoinPaymentActive = true;
+            }
             Response response = new Response();
             response = startingConection(response);
             if (!response.success)
