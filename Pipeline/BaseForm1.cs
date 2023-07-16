@@ -53,12 +53,14 @@ namespace eSSP_example.Pipeline
 
         // The main program loop, this is to control the validator, it polls at
         // a value set in this class (pollTimer).
-        public void startingConection()
+        public Response startingConection(Response response)
         {
-            Thread.Sleep(500);
+            //Thread.Sleep(500);
             // Connect to the validators (non-threaded for initial connect)
+            int attempts = 0;
             while (!payoutRunning && !hopperRunning)
             {
+                attempts++;
                 ConnectToSMARTPayout();
                 ConnectToHopper();
 
@@ -68,8 +70,17 @@ namespace eSSP_example.Pipeline
 
                 //Enable Coin Feeder
                 Hopper.EnableCoinMech();
+
+                if (attempts > 100000)
+                {   
+                    response.set(false,"Unable to connect the payment system");
+                    return response;
+                }
             }
             Console.WriteLine("Sistema de pago activado\n");
+            
+            response.set(true,"Sistema de pago activado");
+            return response;
         }
         public void MainLoop()
         {
@@ -130,49 +141,23 @@ namespace eSSP_example.Pipeline
                     //Console.ReadLine();
                     startRunningProcess = false;
                 }
-                /*
-                char[] currency = { 'E', 'U', 'R' };
-                string amount = "0.2";
-                CalculatePayout(amount, currency);
-                break;*/
 
-
-
-                /* break;/**/
-                /*UpdateUI();
-                timer1.Enabled = true;*/
-                //while (timer1.Enabled) Application.DoEvents();
-
-                //CalculatePayout(tbPayout.Text, tbPayoutCurrency.Text.ToCharArray());
             }
 
-            //btnRun.Enabled = true;
-            //btnHalt.Enabled = false;
         }
 
         // This is a one off function that is called the first time the MainLoop()
         // function runs, it just sets up a few of the UI elements that only need
         // updating once.
-        public float CountingPayment(float amountToPay)
+        public Response CountingPayment(float amountToPay)
         {
             float total = 0;
-            startingConection();
-            /*
-            Thread.Sleep(500);
-            // Connect to the validators (non-threaded for initial connect)
-            while (!payoutRunning && !hopperRunning)
+            Response response = new Response();
+            response = startingConection(response);
+            if (!response.success)
             {
-                ConnectToSMARTPayout();
-                ConnectToHopper();
-
-                // Enable validators
-                Payout.EnableValidator();
-                Hopper.EnableValidator();
-
-                //Enable Coin Feeder
-                Hopper.EnableCoinMech();
+                return response;
             }
-            Console.WriteLine("Sistema de pago activado");*/
 
             bool startRunningProcess = true;
 
@@ -223,7 +208,9 @@ namespace eSSP_example.Pipeline
                     hopperRunning = false;
                     payoutRunning = false;
 
-                    return total - amountToPay;
+                    response.set(true,"Payment receive");
+                    response.setCashback(total - amountToPay);
+                    return response; //total - amountToPay;
 
 
 
@@ -235,8 +222,12 @@ namespace eSSP_example.Pipeline
 
         public Response Pagar(string cashsBack)
         {
-            startingConection();
             Response response = new Response();
+            response = startingConection(response);
+            if (!response.success)
+            {
+                return response;
+            }
 
             bool startRunningProcess = true;
 
@@ -299,10 +290,7 @@ namespace eSSP_example.Pipeline
         public void ConnectToHopper()
         {
             hopperConnecting = true;
-            // setup timer, timeout delay and number of attempts to connect
-            //System.Windows.Forms.Timer reconnectionTimer = new System.Windows.Forms.Timer();
-            //reconnectionTimer.Tick += new EventHandler(reconnectionTimer_Tick);
-           // reconnectionTimer.Interval = 1000; // ms
+
             int attempts = 1000;
 
             // Setup connection info
@@ -353,19 +341,7 @@ namespace eSSP_example.Pipeline
                     hopperConnecting = false;
                     return;
                 }
-                // reset timer
-                //reconnectionTimer.Enabled = true;
-                /*while (reconnectionTimer.Enabled)
-                {
-                    if (CHelpers.Shutdown)
-                    {
-                        hopperConnecting = false;
-                        return;
-                    }
 
-                    //Application.DoEvents();
-                    Thread.Sleep(1);
-                }*/
             }
             hopperConnecting = false;
             return;
@@ -374,10 +350,7 @@ namespace eSSP_example.Pipeline
         public void ConnectToSMARTPayout()
         {
             payoutConnecting = true;
-            // setup timer, timeout delay and number of attempts to connect
-            //System.Windows.Forms.Timer reconnectionTimer = new System.Windows.Forms.Timer();
-           // reconnectionTimer.Tick += new EventHandler(reconnectionTimer_Tick);
-            //reconnectionTimer.Interval = 1000; // ms
+
             int attempts = 1000;
 
             // Setup connection info
@@ -430,19 +403,7 @@ namespace eSSP_example.Pipeline
                     payoutConnecting = false;
                     return;
                 }
-                // reset timer
-                //reconnectionTimer.Enabled = true;
-                /*while (reconnectionTimer.Enabled)
-                {
-                    if (CHelpers.Shutdown)
-                    {
-                        payoutConnecting = false;
-                        return;
-                    }
 
-                    //Application.DoEvents();
-                    Thread.Sleep(1);
-                }*/
             }
             payoutConnecting = false;
             return;

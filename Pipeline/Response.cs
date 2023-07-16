@@ -10,6 +10,7 @@ namespace eSSP_example.Pipeline
     {
         public bool success;
         public string message;
+        public float cashBack;
         
        /* public Response()
         {
@@ -20,6 +21,9 @@ namespace eSSP_example.Pipeline
         {
             this.success = success;
             this.message = message;
+            
         }
+        public void setCashback(float cashBack)
+        { this.cashBack = cashBack; }
     }
 }

@@ -25,14 +25,20 @@ namespace eSSP_example
             if (cobrar)
             {
                 //Iniciando flujo para cobrar
-                float amountToPay = 5F;
+                float amountToPay = 2.5F;
                 Console.WriteLine("Cantidad a pagar :" + amountToPay + " E\n");
-                float cashBack = form.CountingPayment(amountToPay);
+                response = form.CountingPayment(amountToPay);
 
-                //Comprobando si hay que devolver dinero
-                if (cashBack > 0)
+                float cashBack = response.cashBack;
+
+                if (!response.success)
                 {
-                    Thread.Sleep(5000);
+                    Console.WriteLine(response.message);
+                }
+                 //Comprobando si hay que devolver dinero
+                else if(cashBack > 0)
+                {
+                    //Thread.Sleep(5000);
                     Console.WriteLine("Despensing cashback amout: " + cashBack + " €");
                     response = form.Pagar(cashBack.ToString());
                     
