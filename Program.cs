@@ -25,7 +25,7 @@ namespace eSSP_example
             if (cobrar)
             {
                 //Iniciando flujo para cobrar
-                float amountToPay = 5F;
+                float amountToPay = 80.2F;
                 Console.WriteLine("Cantidad a pagar :" + amountToPay + " E\n");
                 response = form.CountingPayment(amountToPay);
 
