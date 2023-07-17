@@ -241,7 +241,7 @@ namespace eSSP_example.Pipeline
         // or it can store the note for payout. This is specified in the second byte (0x00 to store for payout, 0x01 for cashbox). The 
         // bytes after this represent the 4 bit value of the note.
         // This function allows the note to be specified as an int in the param note, the stack bool is true for cashbox, false for storage.
-        public void ChangeNoteRoute(int note, char[] currency, bool stack)
+        public Response ChangeNoteRoute(int note, char[] currency, bool stack, Response response)
         {
             m_cmd.CommandData[0] = CCommands.SSP_CMD_SET_DENOMINATION_ROUTE;
 
@@ -267,7 +267,10 @@ namespace eSSP_example.Pipeline
             m_cmd.CommandDataLength = 9;
 
             if (!SendCommand() || !CheckGenericResponses())
-                return;
+            { 
+                response.set(false,"Unable to set channel for recycling. Issue with note " + note.ToString());
+                return response;
+            }
 
             if (true)
             {
@@ -279,6 +282,8 @@ namespace eSSP_example.Pipeline
 
                 //log.AppendText("Note routing successful (" + CHelpers.FormatToCurrency(note) + " " + s);
             }
+            response.set(true, "Note routing successful");
+            return  response;
         }
 
         // The reset command instructs the validator to restart (same effect as switching on and off)
@@ -831,6 +836,18 @@ namespace eSSP_example.Pipeline
                             Console.WriteLine("Note in escrow, amount: "+ CHelpers.FormatToCurrency(data.Value));
                             m_HoldCount = m_HoldNumber;
                             Global.NoteCountingPayment += float.Parse(CHelpers.FormatToCurrency(data.Value));
+
+                            switch (data.Value)
+                            {
+                                case  50000:
+                                    Global.NotAllowedNote = true;
+                                    Global.NotAllowedNoteValue = 500;
+                                    break;
+                                case  20000:
+                                    Global.NotAllowedNote = true;
+                                    Global.NotAllowedNoteValue = 200;
+                                    break;
+                            }
                         }
                         else
                             //log.AppendText("Reading note\r\n");

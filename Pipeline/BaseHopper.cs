@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.Threading;
 using System.Diagnostics;
 using ITLlib;
+using eSSP_example.Pipeline;
 
 namespace eSSP_example
 {
@@ -210,7 +211,7 @@ namespace eSSP_example
         }
 
         // Set a channel to route to storage, this sends the SET ROUTING command.
-        public void RouteChannelToStorage(int channelNumber)
+        public Response RouteChannelToStorage(int channelNumber, Response response)
         {
             // setup command
             m_cmd.CommandData[0] = CCommands.SSP_CMD_SET_DENOMINATION_ROUTE;
@@ -241,8 +242,10 @@ namespace eSSP_example
 
             // send command
             if (!SendCommand() || !CheckGenericResponses())
-                return;
-
+            { 
+                response.set(false,"Unsuccesful routing to storage with Hooper's Channels");
+                return response;
+            }
             // update list
             foreach (ChannelData d in m_UnitDataList)
             {
@@ -253,6 +256,8 @@ namespace eSSP_example
                 }
             }
 
+            response.set(true,"Successful routing to storage with Hooper's Channels");
+            return response;
             //if (log != null)
              //   log.AppendText("Successfully routed coin on channel " + channelNumber.ToString() + " to storage\r\n");
         }

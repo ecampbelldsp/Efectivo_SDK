@@ -32,24 +32,10 @@ namespace eSSP_example.Pipeline
         {
             Hopper = Hopper_in;
             Payout = Payout_in;
-            /*InitializeComponent();
-            timer1.Interval = pollTimer;
-            timer2.Interval = 500; // update UI every 500ms*/
             this.Location = new Point(Screen.PrimaryScreen.Bounds.X + 50, Screen.PrimaryScreen.Bounds.Y + 30);
             this.Enabled = false;
         }
 
-        // This updates UI variables such as textboxes etc.
-        /*void UpdateUI()
-        {
-            // Get stored notes info from SMART Payout and SMART Hopper at intervals
-            if (!timer2.Enabled)
-            {
-                tbChannelLevels.Text = Payout.GetChannelLevelInfo();
-                tbCoinLevels.Text = Hopper.GetChannelLevelInfo();
-                timer2.Enabled = true;
-            }
-        }*/
 
         // The main program loop, this is to control the validator, it polls at
         // a value set in this class (pollTimer).
@@ -77,6 +63,44 @@ namespace eSSP_example.Pipeline
                     return response;
                 }
             }
+            
+                // Setting channels for recyclying -- Payout device
+                var noteToRecycling = new List<int> { 5, 10, 20, 50, 100, 200, 500};
+                char[] currency = { 'E', 'U', 'R' };
+                foreach (int note in noteToRecycling)
+                {
+                    response = Payout.ChangeNoteRoute((int)(note*100), currency, false, response);
+                    Payout.DoPoll();
+
+                    if (!response.success)
+                        {
+                            Console.WriteLine(response.message);
+                            return response;
+                        }
+                }
+
+
+                // Setting channels for recyclying -- Hooper device
+                for (int i = 1; i <=8; i++)
+                {
+                    response = Hopper.RouteChannelToStorage(i,response);
+                    Hopper.DoPoll();
+
+                    if (!response.success)
+                        {
+                            Console.WriteLine(response.message);
+                            return response;
+                        }
+                }
+
+
+
+
+
+
+
+
+
             Console.WriteLine("Sistema de pago activado\n");
             
             response.set(true,"Sistema de pago activado");
@@ -151,6 +175,8 @@ namespace eSSP_example.Pipeline
         // updating once.
         public Response CountingPayment(float amountToPay)
         {
+            hopperRunning = false;
+            payoutRunning = false;
             float total = 0;
             Response response = new Response();
             response = startingConection(response);
@@ -187,6 +213,10 @@ namespace eSSP_example.Pipeline
                     tSPRec = new Thread(() => ReconnectPayout());
                     tSPRec.Start();
                 }
+
+
+
+
                 Hopper.DoPoll();
                 Payout.DoPoll();
 
@@ -210,7 +240,8 @@ namespace eSSP_example.Pipeline
                     payoutRunning = false;
 
                     response.set(true,"Payment receive");
-                    response.setCashback(total - amountToPay);
+                    float cashBack = (float)Math.Round(total - amountToPay,2);
+                    response.setCashback(cashBack);
                     return response; //total - amountToPay;
 
 
@@ -223,6 +254,9 @@ namespace eSSP_example.Pipeline
 
         public Response Pagar(string cashsBack)
         {
+             hopperRunning = false;
+             payoutRunning = false;
+
             if (float.Parse(cashsBack) <5)
             {
                 Global.NotePaymentActive = false;

@@ -1,0 +1,278 @@
+
+No Encryption
+Sent Packet #1
+Length: 1
+Sync: 1
+Command: Sync
+Data: 11 
+
+Received Packet #1
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #2
+Length: 9
+Sync: 0
+Command: Set Generator
+Data: 4A 8B 4D 5D 59 00 00 00 00 
+
+Received Packet #2
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #3
+Length: 9
+Sync: 1
+Command: Set Modulus
+Data: 4B FD 04 27 14 00 00 00 00 
+
+Received Packet #3
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #4
+Length: 9
+Sync: 0
+Command: Request Key Exchange
+Data: 4C 4F C1 A8 13 00 00 00 00 
+
+Received Packet #4
+Length: 9
+Sync: 0
+Response: OK
+Data: F0 7E 94 27 0C 00 00 00 00 
+
+No Encryption
+Sent Packet #5
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 06 
+
+Received Packet #5
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #6
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 07 
+
+Received Packet #6
+Length: 1
+Sync: 0
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #7
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #7
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #8
+Length: 2
+Sync: 0
+Command: Host Protocol Version
+Data: 06 09 
+
+Received Packet #8
+Length: 1
+Sync: 0
+Response: Fail
+Data: F8 
+
+No Encryption
+Sent Packet #9
+Length: 2
+Sync: 1
+Command: Host Protocol Version
+Data: 06 08 
+
+Received Packet #9
+Length: 1
+Sync: 1
+Response: OK
+Data: F0 
+
+No Encryption
+Sent Packet #10
+Length: 1
+Sync: 0
+Command: Setup Request
+Data: 05 
+
+Received Packet #10
+Length: 80
+Sync: 0
+Response: OK
+Data: F0 06 30 34 32 35 45 55 52 00 00 05 07 01 02 04 0A 14 28 64 02 02 02 02 02 02 02 00 00 64 08 45 55 52 45 55 52 45 55 52 45 55 52 45 55 52 45 55 52 45 55 52 05 00 00 00 0A 00 00 00 14 00 00 00 32 00 00 00 64 00 00 00 C8 00 00 00 F4 01 00 00 
+
+No Encryption
+Sent Packet #11
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 F4 01 00 00 45 55 52 
+
+Received Packet #11
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 01 00 
+
+No Encryption
+Sent Packet #12
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C F4 01 00 00 45 55 52 
+
+Received Packet #12
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #13
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 E8 03 00 00 45 55 52 
+
+Received Packet #13
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 02 00 
+
+No Encryption
+Sent Packet #14
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C E8 03 00 00 45 55 52 
+
+Received Packet #14
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #15
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 D0 07 00 00 45 55 52 
+
+Received Packet #15
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 01 00 
+
+No Encryption
+Sent Packet #16
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C D0 07 00 00 45 55 52 
+
+Received Packet #16
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #17
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 88 13 00 00 45 55 52 
+
+Received Packet #17
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 01 00 
+
+No Encryption
+Sent Packet #18
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 88 13 00 00 45 55 52 
+
+Received Packet #18
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 00 
+
+No Encryption
+Sent Packet #19
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 10 27 00 00 45 55 52 
+
+Received Packet #19
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 00 00 
+
+No Encryption
+Sent Packet #20
+Length: 8
+Sync: 0
+Command: Get Denomination Route
+Data: 3C 10 27 00 00 45 55 52 
+
+Received Packet #20
+Length: 2
+Sync: 0
+Response: OK
+Data: F0 01 
+
+No Encryption
+Sent Packet #21
+Length: 8
+Sync: 1
+Command: Get Denomination Level
+Data: 35 20 4E 00 00 45 55 52 
+
+Received Packet #21
+Length: 3
+Sync: 1
+Response: OK
+Data: F0 00 00 
+
+No Encryption
+Sent Packet #22
+Length: 8
+Sync
