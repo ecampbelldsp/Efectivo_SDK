@@ -221,7 +221,7 @@ namespace eSSP_example.Pipeline
 
                 if (startRunningProcess)
                 {
-                    Console.WriteLine("Inserte dinero!!! \n");
+                    Console.WriteLine("Inserte dinero!!!");
                     Log.write("on");
                     startRunningProcess = false;
                 }
@@ -305,7 +305,7 @@ namespace eSSP_example.Pipeline
 
                 if (startRunningProcess)
                 {
-                    Console.WriteLine("Iniciando devolución!!!");
+                    Console.WriteLine("Iniciando devolucion!!!");
                     startRunningProcess = false;
                     char[] currency = { 'E', 'U', 'R' };
                     response = CalculatePayout(cashsBack, currency);
