@@ -1042,6 +1042,10 @@ namespace eSSP_example
                         string[] tmp = returnstring.Split('E');
                         float tmp_number = float.Parse(tmp[0]);
                         Global.CoinCountingPayment += tmp_number;
+
+                        float pagado = Global.CoinCountingPayment + Global.NoteCountingPayment;
+                        Log.updatePago(pagado.ToString());
+
                         UpdateData();
                         i += 8;
                         break;

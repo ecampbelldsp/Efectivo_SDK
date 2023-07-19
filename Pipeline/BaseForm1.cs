@@ -57,9 +57,10 @@ namespace eSSP_example.Pipeline
                 //Enable Coin Feeder
                 Hopper.EnableCoinMech();
 
-                if (attempts > 100000)
+                if (attempts > 1000)
                 {   
                     response.set(false,"Unable to connect the payment system");
+                    Log.write("off");
                     return response;
                 }
             }
@@ -75,6 +76,7 @@ namespace eSSP_example.Pipeline
                     if (!response.success)
                         {
                             Console.WriteLine(response.message);
+                            Log.write(response.message);
                             return response;
                         }
                 }
@@ -94,16 +96,10 @@ namespace eSSP_example.Pipeline
                 }
 
 
-
-
-
-
-
-
-
             Console.WriteLine("Sistema de pago activado\n");
             
             response.set(true,"Sistema de pago activado");
+
             return response;
         }
         public void MainLoop()
@@ -226,6 +222,7 @@ namespace eSSP_example.Pipeline
                 if (startRunningProcess)
                 {
                     Console.WriteLine("Inserte dinero!!! \n");
+                    Log.write("on");
                     startRunningProcess = false;
                 }
 
@@ -242,6 +239,7 @@ namespace eSSP_example.Pipeline
                     response.set(true,"Payment receive");
                     float cashBack = (float)Math.Round(total - amountToPay,2);
                     response.setCashback(cashBack);
+                    Log.write("recibido");
                     return response; //total - amountToPay;
 
 

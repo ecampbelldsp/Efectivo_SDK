@@ -63,6 +63,7 @@
     <Compile Include="Helpers\LibraryHandler.cs" />
     <Compile Include="Pipeline\BaseHopper.cs" />
     <Compile Include="Pipeline\BasePayout.cs" />
+    <Compile Include="Pipeline\Log.cs" />
     <Compile Include="Pipeline\Response.cs" />
     <Compile Include="Pipeline\Connect_BaseHopper.cs" />
     <Compile Include="Pipeline\Connect_BasePayout.cs" />

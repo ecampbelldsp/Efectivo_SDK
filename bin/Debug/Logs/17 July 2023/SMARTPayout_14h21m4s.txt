@@ -1,0 +1,754 @@
+
+No Encryption
+Sent Packet #1
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #2
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #3
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #4
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #5
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #6
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #7
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #8
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #9
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #10
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #11
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #12
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #13
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #14
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #15
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #16
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #17
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #18
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #19
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #20
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #21
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #22
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #23
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #24
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #25
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #26
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #27
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #28
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #29
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #30
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #31
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #32
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #33
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #34
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #35
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #36
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #37
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #38
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #39
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #40
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #41
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #42
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #43
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #44
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #45
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #46
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #47
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #48
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #49
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #50
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #51
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #52
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #53
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #54
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #55
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #56
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #57
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #58
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #59
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #60
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #61
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #62
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #63
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #64
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #65
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #66
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #67
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #68
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #69
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #70
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #71
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #72
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #73
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #74
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #75
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #76
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #77
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #78
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #79
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #80
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #81
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #82
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #83
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #84
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #85
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #86
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #87
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #88
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #89
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #90
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #91
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #92
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #93
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encryption
+Sent Packet #94
+Length: 1
+Sync: 0
+Command: Enable
+Data: 0A 
+No response...
+
+No Encrypti

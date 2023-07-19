@@ -837,6 +837,9 @@ namespace eSSP_example.Pipeline
                             m_HoldCount = m_HoldNumber;
                             Global.NoteCountingPayment += float.Parse(CHelpers.FormatToCurrency(data.Value));
 
+                            float pagado = Global.CoinCountingPayment + Global.NoteCountingPayment;
+                            Log.updatePago(pagado.ToString());
+
                             switch (data.Value)
                             {
                                 case  50000:
